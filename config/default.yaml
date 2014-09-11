@@ -9,7 +9,7 @@ mongodb:
 
 monitor:
   name:                   origin
-  apiUrl:                 'http://localhost:8082/api' # must be accessible without a proxy
+  apiUrl:                 'http://localhost/api' # must be accessible without a proxy
   pollingInterval:        10000      # ten seconds
   timeout:                5000       # five seconds
   userAgent:              NodeUptime/3.0 (https://github.com/fzaninotto/uptime)
@@ -21,12 +21,15 @@ analyzer:
 
 autoStartMonitor: true
 
+server:
+  port: 80
+
 plugins:
   - ./plugins/console
   - ./plugins/patternMatcher
   - ./plugins/httpOptions
   # - ./plugins/email
-  # - ./plugins/basicAuth
+  - ./plugins/basicAuth
 
 email:
   method:      SMTP  # possible methods are SMTP, SES, or Sendmail
@@ -46,8 +49,8 @@ email:
   # The email plugin also uses the main `url` param for hyperlinks in the sent emails
 
 basicAuth:
-  username:    admin
-  password:    password
+  username:    superman
+  password:    spiderman
 verbose: true # only used in dev
 
 webPageTest:
