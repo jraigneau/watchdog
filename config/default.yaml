@@ -1,10 +1,10 @@
 url: 'http://localhost:8082'
 
 mongodb:
-  server:   localhost
-  database: uptime
-  user:     root 
-  password:
+  server:   ds035260.mongolab.com:35260
+  database: heroku_app29472480
+  user:     heroku_app29472480
+  password: nlh1rlk2dtne6djppuaha44qi9
   connectionString:       # alternative to setting server, database, user and password separately
 
 monitor:
