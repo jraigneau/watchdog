@@ -9,7 +9,7 @@ mongodb:
 
 monitor:
   name:                   origin
-  apiUrl:                 'http://localhost/api' # must be accessible without a proxy
+  apiUrl:                 'http://wwwatchdog.herokuapp.com/api' # must be accessible without a proxy
   pollingInterval:        10000      # ten seconds
   timeout:                5000       # five seconds
   userAgent:              NodeUptime/3.0 (https://github.com/fzaninotto/uptime)
