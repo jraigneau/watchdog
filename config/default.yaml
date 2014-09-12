@@ -28,7 +28,7 @@ plugins:
   - ./plugins/console
   - ./plugins/patternMatcher
   - ./plugins/httpOptions
-  # - ./plugins/email
+  - ./plugins/email
   - ./plugins/basicAuth
 
 email:
