@@ -44,7 +44,7 @@ email:
     paused:    false
     restarted: false
   message:           
-    from:       watchdog@zeneffy.fr     # The message sender, e.g. 'Fred Foo <foo@blurdybloop.com>'
+    from:       wwwatchdogZEN@gmail.com     # The message sender, e.g. 'Fred Foo <foo@blurdybloop.com>'
     to:         julien@zeneffy.fr     # The message recipient, e.g. 'bar@blurdybloop.com, baz@blurdybloop.com'
   # The email plugin also uses the main `url` param for hyperlinks in the sent emails
 
