@@ -32,6 +32,7 @@ plugins:
   - ./plugins/basicAuth
 
 email:
+  dashboardUrl: 'http://watchdog.zeneffy.fr'
   method:      SMTP  # possible methods are SMTP, SES, or Sendmail
   transport:         # see https://github.com/andris9/nodemailer for transport options
     service:   Gmail # see https://github.com/andris9/Nodemailer/blob/master/lib/wellknown.js for well-known services
