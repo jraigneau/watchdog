@@ -1,4 +1,4 @@
-url: 'http://localhost:8082'
+url: 'http://watchdog.zeneffy.fr'
 
 mongodb:
   server:   ds035260.mongolab.com:35260
@@ -52,7 +52,7 @@ email:
 basicAuth:
   username:    superman
   password:    spiderman
-verbose: true # only used in dev
+verbose: false # only used in dev
 
 webPageTest:
   server: 'http://www.webpagetest.org'
