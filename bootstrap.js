@@ -17,12 +17,12 @@ mongoose.connection.on('open', function (err) {
         mongoose.connection.db.authenticate(config.mongodb.user, config.mongodb.password, function(err) {
           if (!err) return;
           console.error(err);
-          process.exit(1);
+          //process.exit(1);
         });
         return;
       } else {
         console.error(err);
-        process.exit(1);
+        //process.exit(1);
       }
     }
     if (!semver.satisfies(data.version, '>=2.1.0')) {
