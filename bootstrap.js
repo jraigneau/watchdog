@@ -27,7 +27,7 @@ mongoose.connection.on('open', function (err) {
     }
     if (!semver.satisfies(data.version, '>=2.1.0')) {
       console.error('Error: Uptime requires MongoDB v2.1 minimum. The current MongoDB server uses only '+ data.version);
-      process.exit(1);
+      //process.exit(1);
     }
   });
 });
